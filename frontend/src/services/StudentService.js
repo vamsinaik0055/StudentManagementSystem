@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8080/api/students",
+  baseURL: "https://studentmanagementsystem-2ebw.onrender.com/api/students",
 });
 
 export const getStudents = (page = 0, size = 5, search = "") => {
