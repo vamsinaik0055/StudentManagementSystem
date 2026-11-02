@@ -1,0 +1,15 @@
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+target/
+**/target/
+.env
+.env.*
+**/.env
+**/.env.*
+.idea/
+.vscode/
+*.log
+/package.json
+/package-lock.json
